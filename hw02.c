@@ -14,16 +14,16 @@ int main(){
         for (int i = 0; i < 34; i++)
         printf("\n");
         switch (menu){
-        case '1':
+        case 1:
             money = money + 150; x1++;
             break;
-        case '2':
+        case 2:
             money = money + 50; x2++;
             break;
-        case '3':
+        case 3:
             money = money + 25; x3++;
             break;
-        case '4':
+        case 4:
             money = money + 10; x4++;
             break;        
         default:
