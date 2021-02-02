@@ -4,10 +4,10 @@ int main(){
     float money = 0;
     printf("Welcome to Restaurant\n");
     do{
-        printf("1. Pizza 150 B\n");
+        printf("1. Pizza    150 B\n");
         printf("2. Hamburger 50 B\n");
-        printf("3. Sandwich 25 B\n");
-        printf("4. Water 10 B\n");
+        printf("3. Sandwich  25 B\n");
+        printf("4. Water     10 B\n");
         printf("0. Calculate money\n");
         printf("\nSelect menu : ");
         scanf ("%d" ,&menu);
@@ -30,10 +30,10 @@ int main(){
             break;
         }
         printf("\n\nU have : \n");
-        printf("Pizza %d * 150 : %d\n",x1,x1*150);
+        printf("Pizza    %d * 150 : %d\n",x1,x1*150);
         printf("Hamburger %d * 50 : %d\n",x2,x2*50);
-        printf("Sandwich %d * 25 : %d\n",x3,x3*25);
-        printf("Water %d * 10 : %d\n\n",x4,x4*10);
+        printf("Sandwich  %d * 25 : %d\n",x3,x3*25);
+        printf("Water     %d * 10 : %d\n\n",x4,x4*10);
     }
     while (menu != 0);{
         printf("\nTotal payment = %.2f\n", money);
